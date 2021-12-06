@@ -17,6 +17,7 @@ import com.dev.DShaper.services.BussinessService;
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
 public class Application implements CommandLineRunner {
 	
+	//todo delete
 	@Autowired
 	private BussinessService bs;
 	
